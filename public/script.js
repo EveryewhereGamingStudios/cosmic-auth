@@ -1,7 +1,7 @@
 /* global document, window, axios, supabase, ethers */
 const AUTH_API_URL = 'http://localhost:3000/api/auth';
-const SUPABASE_URL = 'replace_me';
-const SUPABASE_PUBLIC_ANON_KEY = 'replace_me';
+const SUPABASE_URL = 'https://ocgqmtngzmfrfkjuntim.supabase.co';
+const SUPABASE_PUBLIC_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9jZ3FtdG5nem1mcmZranVudGltIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzQ3MTUzNTksImV4cCI6MTk5MDI5MTM1OX0.AAnKShXhlgw8V_OkgYYyisea1ZmiHLqAOX7WXIdBbdM';
 
 const elError = document.getElementById('error');
 const elUser = document.getElementById('user');
