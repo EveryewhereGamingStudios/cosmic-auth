@@ -7,6 +7,8 @@ import { apiRouter } from './apiRouter';
 
 const app = express();
 
+const port = config.PORT || 3000;
+
 Moralis.start({
   apiKey: config.MORALIS_API_KEY,
 });
@@ -21,7 +23,7 @@ app.use(errorHandler);
 
 app.use(express.static('public'));
 
-app.listen(config.PORT, () => {
+app.listen(port, () => {
   // eslint-disable-next-line no-console
-  console.log(`${config.APP_NAME} is running on port ${config.PORT}`);
+  console.log(`${config.APP_NAME} is running on port ${port}`);
 });
