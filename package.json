@@ -1,6 +1,7 @@
 {
   "name": "demo-supabase-auth",
   "version": "1.0.0",
+  "license": "GPLv3",
   "private": true,
   "dependencies": {
     "@moralisweb3/common-core": "^2.12.0",
